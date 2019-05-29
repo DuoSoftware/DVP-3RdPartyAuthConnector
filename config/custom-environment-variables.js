@@ -40,6 +40,6 @@ module.exports = {
     "ThirdParty":{
         "AuthUrl":"HOST_THIRD_PARTY_AUTH_URL",
         "Secret":"HOST_THIRD_PARTY_AUTH_SECRET",
-        "EventUrl":"gfdgd"
+        "EventUrl":"HOST_THIRD_PARTY_EVENT_URL"
     }
 };
