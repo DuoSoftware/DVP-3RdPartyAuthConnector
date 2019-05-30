@@ -33,8 +33,8 @@ module.exports = {
 
 
     "Host":{
-        "Port":"HOST_EVENTTRIGGERSERVICE_PORT",
-        "Version":"HOST_EVENTTRIGGERSERVICE_VERSION"
+        "Port":"HOST_3RDPARTYAUTHCONNECTOR_PORT",
+        "Version":"HOST_3RDPARTYAUTHCONNECTOR_VERSION"
     },
 
     "ThirdParty":{
