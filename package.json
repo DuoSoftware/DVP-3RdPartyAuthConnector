@@ -1,0 +1,27 @@
+{
+  "name": "dvp-3rdpartyauthconnector",
+  "version": "1.0.0",
+  "description": "proxy connector for auth implementation",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^1.13.0",
+    "dvp-common": "1.5.2",
+    "request": "^2.69.0",
+    "restify": "^4.0.3",
+    "restify-jwt": "^0.4.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuoSoftware/DVP-3RdPartyAuthConnector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuoSoftware/DVP-3RdPartyAuthConnector/issues"
+  },
+  "homepage": "https://github.com/DuoSoftware/DVP-3RdPartyAuthConnector#readme"
+}
