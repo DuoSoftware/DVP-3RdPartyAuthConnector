@@ -32,7 +32,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 //server.use(restify.urlEncodedBodyParser());
 
-server.use(jwt({secret: secret.Secret,
+/*server.use(jwt({secret: secret.Secret,
     getToken: function fromHeaderOrQuerystring (req) {
         if (req.headers.authorization && req.headers.authorization.split(' ')[0].toLowerCase() === 'bearer') {
             return req.headers.authorization.split(' ')[1];
@@ -40,7 +40,7 @@ server.use(jwt({secret: secret.Secret,
             return req.params.Authorization;
         }
         return null;
-    }}));
+    }}));*/
 
 async function RequestToken(uuid){
 
