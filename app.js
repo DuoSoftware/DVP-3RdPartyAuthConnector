@@ -59,6 +59,8 @@ async function RequestToken(uuid){
             body: 'grant_type=client_credentials'
         };
 
+        logger.info('[DVP-3RdPartyAuthConnector.RequestToken] - [%s] - Requesting Token - Url : %s, Token : %s', uuid, url, secret);
+
         request.post(options, function (error, response, body)
         {
             if (!error && response.statusCode >= 200 && response.statusCode <= 299)
